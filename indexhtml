@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legiforte - Tenues de Sport pour Femme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        .about, .products, .contact {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .products img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Legiforte</h1>
+        <p>Tenues de sport pour femme, légiférées et ultra confortables</p>
+    </header>
+
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#products">Nos Produits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>À propos</h2>
+        <p>Chez <strong>Legiforte</strong>, nous nous engageons à offrir des tenues de sport pour femme qui allient discrétion, confort et qualité. Nos produits sont conçus pour s'adapter à vos besoins, que vous recherchiez des vêtements performants pour l'entraînement ou pour un usage quotidien.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nos Produits</h2>
+        <p>Découvrez notre collection exclusive de tenues de sport pour femme :</p>
+        <ul>
+            <li>Leggings ultra confortables</li>
+            <li>Soutiens-gorge de sport discrets</li>
+            <li>T-shirts techniques légiférés</li>
+            <li>Vestes et joggings adaptés à l'entraînement</li>
+        </ul>
+        <img src="tenue_sport_femme.jpg" alt="Exemple de tenues de sport pour femme">
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Pour toute question ou commande, n'hésitez pas à nous contacter :</p>
+        <p>Email : kadilaura8@gmail.com</p>
+        <p>Téléphone : 0695274074</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Legiforte. Tous droits réservés.</p>
+    </footer>
+</body>
+</html
